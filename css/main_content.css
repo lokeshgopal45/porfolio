@@ -1,0 +1,14 @@
+/* CSS for main content (Main Body) */
+.main-content {
+    width: calc(70% - 250px); /* Adjust the width for the Static and Navigation sections */
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

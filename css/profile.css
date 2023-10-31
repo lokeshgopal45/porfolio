@@ -1,0 +1,47 @@
+
+.profile img {
+    width: 80%;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.profile h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(15, 48, 5);
+    text-align: center;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top: 1px;
+    color: rgb(15, 48, 5);
+    margin-bottom: 0x;
+    text-align: center;
+
+}
+
+.profile p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: rgb(55, 46, 37);
+    text-align: center;
+
+}
+
+
+/* CSS for profile (Static) */
+.profile {
+    width: 30%; /* Adjust the width as needed */
+    height: 100vh;
+    padding: 20px;
+    background-color: #c6b1b1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Remove fixed positioning to ensure it affects layout */
+}
+
+

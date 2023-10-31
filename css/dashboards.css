@@ -1,0 +1,18 @@
+/* CSS for the Home section content */
+.dynamic-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.dynamic-content h2 {
+    font-size: 24px;
+    color: #b61212; /* Choose your preferred text color */
+}
+
+.dynamic-content p {
+    font-size: 16px;
+    color: #666; /* Choose your preferred text color */
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
