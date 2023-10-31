@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Projects</title>
+    <style>
+        #personal-projects {
+            text-align: left;
+        }
+
+        /* Define the grid layout */
+        #project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px; /* Adjust the gap between tiles */
+        }
+
+        /* Style the project tiles */
+        .project {
+            background-color: #f1f1f1; /* Background color for the tiles */
+            border: 1px solid #311c1c; /* Dark border color */
+            border-radius: 10px; /* Curved border */
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border: 1px;
+        }
+        h1 {
+            color: #ff5733; /* Heading Colour*/
+        }
+
+    </style>
+</head>
+<body>
+    <div id="personal-projects">
+        <h1>Personal Projects</h1>
+        <link rel="stylesheet" type="text/css" href="css/projects.css">
+        <p>These are my personal projects and case studies.</p>
+        <p>You can find some of my projects on <a href="https://github.com/lokeshmadiga">github</a></p>
+
+        <div id="project-grid">
+
+            <!-- APEAMCET Project-->
+            <div class="project">
+                <h3>APEAMCET Rank Analysis</h3>
+                <img href src="Media/dashboards/dashboard1.png" alt="APEAMCET Dashboard">
+                <p>Exploratory Data Analysis on raw 60pages of APEAMCET data by using Pandas, built intutive dashboard for students ,reduced Ranks Search time from 20 mintues to 2 minutes using Tableau</p>
+                <a href="https://github.com/lokeshmadiga/apeamcet2022-Ranks-cutoff" target="_blank">
+                    <img src="Media/logos/github_logo.png" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+                <a href="https://public.tableau.com/app/profile/lokesh.madiga/viz/APEAMCET2022RankCutoff/Dashboard1" target="_blank">
+                    <img src="Media/logos/tableau_logo.jpg" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+            </div>
+            
+            <!-- TRAI Analysis Project-->
+            <div class="project">
+                <h3>TRAI Network Analysis </h3>
+                <img href src="Media/dashboards/trai_analysis.jpg" alt="TRAI Analysis Dashboard">
+                <p>Analyzed 4.5Mn TRAI data for 5 years by using Pandas.Studied network strength and data speed variations.Created user-friendly dashboards by using Power BI </p>
+                <a href="https://github.com/lokeshmadiga/apeamcet2022-Ranks-cutoff" target="_blank">
+                    <img src="Media/logos/github_logo.png" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+                <a href="https://public.tableau.com/app/profile/lokesh.madiga/viz/" target="_blank">
+                    <img src="Media/logos/powerbi_logo.png" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+            </div>
+
+             <!-- Netflix Casestudy-->
+             <div class="project">
+                <h3>Netflix Casestudy</h3>
+                <img href src="Media/dashboards/Netflix_Movies.png" alt="Project 1 Image">
+                <p>Studied long-term content leasing trends and the shift in focus towards TV shows Vs movies in recent years of Netflix, Prepare Detailed Casestudy dashboard using Tableau </p>
+                <a href="https://github.com/lokeshmadiga/apeamcet2022-Ranks-cutoff" target="_blank">
+                    <img src="Media/logos/github_logo.png" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+                <a href="https://public.tableau.com/app/profile/lokesh.madiga/viz/NetflixMovies_16821707793150/Netflix_Movies" target="_blank">
+                    <img src="Media/logos/tableau_logo.jpg" alt="GitHub" style="width: 20px; height: auto;">
+                </a>
+            </div>
+            <!-- Repeat the above project divs for a total of 9 to create a 3x3 grid -->
+            
+
+            
+        </div>
+    </div>
+</body>
+</html>
+

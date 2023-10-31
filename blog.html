@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <style>
+        #blog-section {
+            text-align: left;
+        }
+        h1 {
+            color: #ccba16; /* Blog  heading */
+        }
+
+
+        /* Style the blog containers */
+        .blog-entry {
+            display: flex;
+            border: 1px solid #311c1c; /* Dark border color */
+            border-radius: 10px; /* Curved border */
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
+            margin-top: auto;
+        }
+        .blog-image {
+            flex: 30%; /* Set 30% of the width for the blog image */
+            max-width: 10%; /* Ensure the image fits within 30% of the container width */
+            height: auto; /* Maintain aspect ratio */
+
+        }
+        .blog-description {
+            flex: 70%; /* Set 70% of the width for the blog description */
+        }
+        #blog-link a {
+            text-decoration: none; /* Remove the default underline */
+            color: #0077b5; /* Choose your preferred text color for the link */
+            transition: color 0.3s; /* Add a smooth transition for the color change */
+        }
+        
+        #blog-link a:hover {
+            color: #00a0dc; /* Choose the color you want when hovering */
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="blog-section">
+        <h1>Blog</h1>
+        <p>These are Problem Solving Experiences While doing Data Analysis</p>
+        <p>You can find more on my  <a href="https://medium.com/@loklokesh2156" style="color: black;" target="_blank">Medium</a></p>
+        <br>
+
+        <!-- Blog Entry 1 -->
+        <div class="blog-entry">
+            <div class="blog-image">
+                <a href="https://medium.com/@loklokesh2156/converting-pdf-to-csv-using-pandas-with-pdfplumber-0ef0bd204618" target="_blank"><img src="Media/logos/medium_logo.png" alt="LinkedIn"></a>
+            </div>
+
+            <div class="blog-description">
+                <h3 style="color: rgb(241, 109, 21);"><b>pdf to csv using pandas</b></h3>
+                <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Converting PDF Tabular data to CSV  by using pandas,pdfplumber in Effective Way</p>
+            </div>
+        </div>
+         <!-- Add more blog entries as needed -->
+
+       
+    </div>
+</body>
+</html>
