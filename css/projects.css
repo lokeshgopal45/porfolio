@@ -21,6 +21,17 @@
     color: #1d577b;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    .dynamic-content h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
 
+    .dynamic-content p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
 
-
+    .personal-projects h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+}

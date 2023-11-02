@@ -1,6 +1,7 @@
+
 /* CSS for main content (Main Body) */
 .main-content {
-    width: calc(70% - 250px); /* Adjust the width for the Static and Navigation sections */
+    width: 70%; /* Adjust the width for the Static and Navigation sections */
     height: 100vh;
     padding: 20px;
     background-color: #ffffff;
@@ -11,4 +12,11 @@
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-content {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
 }

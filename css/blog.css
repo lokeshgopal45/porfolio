@@ -6,12 +6,74 @@
 
 .dynamic-content h2 {
     font-size: 24px;
-    color: #b61212; /* Choose your preferred text color */
+    color: #1d577b; /* Adjust text color as per your preference */
+    margin-bottom: 20px; /* Add spacing below the heading */
 }
 
 .dynamic-content p {
     font-size: 16px;
-    color: #666; /* Choose your preferred text color */
+    color: #333; /* Adjust text color as per your preference */
     line-height: 1.5;
     margin: 10px 0;
+}
+
+/* Style your links */
+.dynamic-content a {
+    text-decoration: none;
+    color: #15b1cd; /* Adjust link color as per your preference */
+    margin-right: 20px; /* Add spacing between links */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .dynamic-content h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .dynamic-content p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+
+/* CSS for the Blog section */
+#blog-section {
+    text-align: left;
+}
+
+h1 {
+    color: #ccba16; /* Blog heading color */
+}
+
+.blog-entry {
+    display: flex;
+    border: 1px solid #311c1c; /* Dark border color */
+    border-radius: 10px; /* Curved border */
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Box shadow for a raised effect */
+    margin-top: auto;
+}
+
+.blog-image {
+    flex: 30%;
+    max-width: 100px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.blog-description {
+    flex: 70%;
+    max-width: 100%; /* Set a maximum width for the description */
+    text-align: center;
+}
+
+#blog-link a {
+    text-decoration: none; /* Remove the default underline */
+    color: #0e80bd; /* Choose your preferred text color for the link */
+    transition: color 0.3s; /* Add a smooth transition for the color change */
+}
+
+#blog-link a:hover {
+    color: #00a0dc; /* Choose the color you want when hovering */
 }
