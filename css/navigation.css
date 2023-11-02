@@ -31,3 +31,14 @@
     color: #fff;
     font-weight: bold;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navigation {
+        top: 2%; /* Adjust position from the top for smaller screens */
+    }
+
+    .navigation a {
+        padding: 6px 10px; /* Adjust padding for smaller screens */
+    }
+}

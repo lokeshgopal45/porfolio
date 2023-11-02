@@ -16,3 +16,13 @@
     margin: 10px 0;
 }
 
+/* Responsive styles */
+@media (max-width: 768px) {
+    .dynamic-content h2 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .dynamic-content p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
